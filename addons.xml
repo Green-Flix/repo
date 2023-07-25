@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon	id="greenflix.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR green]Green[/COLOR][COLOR red]Flix[/COLOR][/B]" version="1.08"	provider-name="[COLOR green]Greem[/COLOR][COLOR red]Flix[/COLOR]">
+
+	<requires>
+    	<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+
+	<extension point="xbmc.addon.repository" name="Green Flix Repositorio">
+		<dir>
+    		<info compressed="false">https://github.com/Green-Flix/repo/raw/master/addons.xml</info>
+    		<checksum>https://github.com/Green-Flix/smrzips/raw/repo/addons.xml.md5</checksum>
+    		<datadir zip="true">https://github.com/Green-Flix/repo/raw/master/nexus</datadir>
+			<hashes>false</hashes>
+		</dir>
+
+  		<dir minversion="20">
+			<info compressed="false">https://github.com/Green-Flix/repo/raw/master/nexus/addons.xml</info>
+			<checksum>https://github.com/Green-Flix/repo/raw/repo/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/Green-Flix/repo/raw/master/nexus</datadir>
+			<hashes>false</hashes>
+    	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="pt_br">Repositorio Oficial Green Flix</summary>
+        <description lang="pt_br">Repositorio Green Flix - AGREGADOR de ADDONS, assim como o Google.com, apenas agrega e organiza ADDON Green Flix e Complementos.</description>
+        <disclaimer	lang="pt_br"></disclaimer>
+		<platform>all</platform>
+		<source>https://github.com/Green-Flix/repo</source>
+		 <assets>
+            <icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+	    <news></news>
+	</extension>
+</addon>
+</addons>

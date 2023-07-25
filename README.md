@@ -1,0 +1,1 @@
+Repositorio Oficial Green Flix, todos os direitos reservados!

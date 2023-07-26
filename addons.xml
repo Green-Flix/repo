@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="teste.repo" name="Repositório Green Flix" version="1.0.0" provider-name="SrTriste">
+<addon id="teste.repo" name="Repositório Green Flix" version="0.0.1" provider-name="SrTriste">
 	<extension point="xbmc.addon.repository" name="Repositório Green Flix">
+<<<<<<< HEAD
 			<info compressed="false">http://raw.github.com/Green-Flix/repo/blob/main/addons.xml</info>
+=======
+				<info compressed="false">http://raw.github.com/Green-Flix/repo/blob/main/addons.xml</info>
+>>>>>>> a30cf11cc3e7445de50345c53786834a901af492
 		<checksum>http://raw.github.com/Green-Flix/repo/blob/main/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/Green-Flix/repo/tree/main/nexus/</datadir>
 	</extension>
